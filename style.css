@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ; 
+  }
+
+main{
+    background-color: rgb(207, 200, 200);
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px ;
+    grid-auto-rows: auto;
+    font-size: 13px; 
+    font-family:  Barlow Semi Condensed;
+    font-weight: 500, 600;
+ 
+    
+}
+
+section.tarjetaJonathan > h4 {
+    color:white
+}
+section.tarjetaDaniel > h4 {
+    color:white
+}
+section.tarjetaPatrick > h4 {
+    color:white
+}
+
+
+  p{
+    color:hsl(0, 0%, 81%);
+}
+
+#colorNombre{
+    color:white ;
+}
+
+.tarjetaDaniel{
+    position: relative;
+    padding: 16px;
+    
+    border-radius: 30px;
+    background-color:  #7541c8;
+    border: radius 30px;
+    grid-column: 1 / 3;
+    grid-row: 1 ;
+    
+    
+    
+    
+    
+}
+
+.tarjetaJonathan{
+    position: relative;
+    border-radius: 30px;
+    background-color: #48556a;
+    padding: 16px;
+    grid-column: 3 ;
+    grid-row: 1 ;
+    
+    
+}
+
+
+.tarjetaJeanette{
+    position: relative;
+    padding: 16px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    border: radius 30px;
+    grid-column: 1  ;
+    grid-row: 2 ;
+    
+}
+
+.tarjetaPatrick{
+    position: relative;
+    padding: 16px;
+    border-radius: 30px;
+    background-color: #19212e;
+    grid-column: 2 / 4 ;
+    grid-row: 2 ;
+    
+}
+
+.tarjetaKira{
+    position: relative;
+    padding: 16px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    grid-column: 4 ;
+    grid-row: 1 /  3 ;
+    
+    
+    
+    
+    
+    
+
+}
+
+#bgimage{
+    height: 80px;
+    width: 80px;
+    right: 50px;
+    top: 0; 
+    position: absolute;
+
+
+    
+    
+}
+
+
+#imgdaniel {
+    border-radius:50%;
+    border: solid 4px;
+    border-color:#6A5797;
+
+}
+
+#imgjonathan {
+    border-radius:50%;
+}
+
+#imgjeanette {
+    border-radius:50%;
+}
+
+#imgpatrick {
+    border-radius:50%;
+    border: solid 4px;
+    border-color: #6A5797;
+}
+
+#imgkira {
+    border-radius:50%;
+}
+
+
+.header1{
+    position: absolute;
+    top: 30px;
+    left: 85px;
+}
+
+.header1{
+    position: absolute;
+    top: 30px;
+    left: 85px;
+}
+
+.header2{
+    position: absolute;
+    top: 25px;
+    left: 85px;
+}
+.header3{
+    position: absolute;
+    top: 25px;
+    left: 85px;
+}
